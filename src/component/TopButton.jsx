@@ -1,6 +1,6 @@
 import React from "react";
 
-function TopButton() {
+function TopButton({ setQuery }) {
   const cities = [
     { id: 1, title: "London" },
     { id: 2, title: "Berlin" },
